@@ -10,7 +10,7 @@ s = TCPSocket.open(hostname, port)
 
 #puts line.chop      # And print with platform line terminator
 #end
-s.puts "socket2\n"
+s.puts "HELLO test\n"
 
 while line = s.gets   # Read lines from the socket
   print line
