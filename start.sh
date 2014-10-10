@@ -1,1 +1,1 @@
-ruby "Server"
+ruby "Server" 2500
