@@ -16,3 +16,4 @@ while line = s.gets   # Read lines from the socket
   print line
 end
 s.close               # Close the socket when done
+ 
