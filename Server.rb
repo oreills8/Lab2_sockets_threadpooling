@@ -1,7 +1,6 @@
 require 'socket'                                            # Get sockets from stdlib
 require 'thread'
 
-
 class Server                                                
   attr_accessor :socket, :IsOpen                            #socket is the socket connection for each server, 
   def initialize()                  #Isopen is a boolean for if the socket is still open or not
@@ -11,7 +10,7 @@ class Server
 end
 
 
-PortNumber = 2500
+PortNumber = ARGV[0]
 
 IPAddress = Socket::getaddrinfo(Socket.gethostname,"echo",Socket::AF_INET)[0][3]
 
